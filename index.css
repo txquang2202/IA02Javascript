@@ -1,0 +1,24 @@
+button{
+    border-radius: 50px;
+    background-color: rgb(94, 95, 95);
+    color: rgb(234, 234, 234);
+    padding: 0px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    margin-left: 10px;
+}
+.row {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(55.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    
+}
